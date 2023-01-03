@@ -1,0 +1,221 @@
+
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  height: 450px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 50px;
+color: #F7EFED;
+}
+#card1{
+  float: left;
+  width: 32%;
+  margin-top: 7px;
+  padding: 20px;
+  height: 330px; 
+}
+
+.details{
+  padding-top: 12px;
+  margin-left: 20px;
+  img{
+    height: 120px;
+  }
+}
+.details p{
+  font-size: 20px;
+  text-align: center;
+}
+
+.details2{
+  margin-left: 470px;
+  margin-top: -415px;
+  width:30%;
+  height: 55%; 
+ .mail{
+  margin-bottom: 28px;
+  img{
+    height: 50px;
+    width: 50px;
+    margin-right: 65%;
+  }
+  h4{
+    margin-top: -42px;
+    margin-left: 60px;
+    font-size: 20px;
+  }
+ }
+ 
+ .insta{
+  margin-bottom: 32px;
+  img{
+    height: 50px;
+    width: 50px;
+    margin-right: 65%;
+  }
+  h4{
+    margin-top: -42px;
+    margin-left: 70px;
+    font-size: 20px;
+  }
+ }
+
+ .wap{
+    margin-bottom: 32px;
+  img{
+    height: 50px;
+    width: 50px;
+    margin-right: 65%;
+  }
+  h4{
+    margin-top: -42px;
+    margin-left: 70px;
+    font-size: 20px;
+  }
+  
+ }
+
+ .twit{
+  margin-bottom: 32px;
+  img{
+    height: 50px;
+    width: 50px;
+    margin-right: 65%;
+  }
+  h4{
+    margin-top: -42px;
+    margin-left: 70px;
+    font-size: 20px;
+  }
+ }
+ .face{
+  margin-bottom: 32px;
+  img{
+    height: 50px;
+    width: 50px;
+    margin-right: 65%;
+  }
+  h4{
+    margin-top: -42px;
+    margin-left: 70px;
+    font-size: 20px;
+  }
+ }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .footer {
+    padding: 20px;
+    height: 1150px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 200px;
+  color: #F7EFED;
+  }
+ 
+  #card1{
+    align-items: center;
+    width: 330px;
+    margin-top: 7px;
+    padding: 20px;
+    height: 330px; 
+  }
+  
+  .details{
+    padding-top: 12px;
+    img{
+      height: 120px;
+    }
+  }
+  .details p{
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .details2{
+    margin-left: 20px;
+    margin-top: 50px;
+    width:30%;
+    height: 55%; 
+   .mail{
+    margin-bottom: 28px;
+    img{
+      height: 50px;
+      width: 50px;
+      margin-right: 65%;
+    }
+    h4{
+      margin-top: -42px;
+      margin-left: 60px;
+      font-size: 20px;
+    }
+   }
+   
+   .insta{
+    margin-bottom: 32px;
+    img{
+      height: 50px;
+      width: 50px;
+      margin-right: 65%;
+    }
+    h4{
+      margin-top: -42px;
+      margin-left: 70px;
+      font-size: 20px;
+    }
+   }
+  
+   .wap{
+      margin-bottom: 32px;
+    img{
+      height: 50px;
+      width: 50px;
+      margin-right: 65%;
+    }
+    h4{
+      margin-top: -42px;
+      margin-left: 70px;
+      font-size: 20px;
+    }
+    
+   }
+  
+   .twit{
+    margin-bottom: 32px;
+    img{
+      height: 50px;
+      width: 50px;
+      margin-right: 65%;
+    }
+    h4{
+      margin-top: -42px;
+      margin-left: 70px;
+      font-size: 20px;
+    }
+   }
+   .face{
+    margin-bottom: 32px;
+    img{
+      height: 50px;
+      width: 50px;
+      margin-right: 65%;
+    }
+    h4{
+      margin-top: -42px;
+      margin-left: 70px;
+      font-size: 20px;
+    }
+   }
+  }
+    
+ 
+   
+
+  
+}

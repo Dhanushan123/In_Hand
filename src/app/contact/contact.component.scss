@@ -1,0 +1,81 @@
+    /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f0eded;
+    padding: 50px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    h2{
+      text-align: center;
+      margin-bottom: 2%;
+      font-size: 50px;
+      font-family: serif;
+      font-weight: bold;
+      color: rgb(16, 25, 55);
+    }
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    height: 540px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card{
+    height: 500px;
+    h1{
+      margin-top: 5%;
+      color: black;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    h3{
+      color:rgb(139, 7, 7);
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      margin-bottom: 5%;
+    }
+    h4{
+      color:rgb(139, 7, 7);
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    p{
+      color:black;
+      text-align: center;
+      margin-bottom: 5%;
+    }
+    img{
+      height: 50px;
+      width: 50px;
+      margin-left: 46%;
+    }
+  }
+  
+ 
+@media only screen and (max-width: 768px) {
+  .column{
+    .card{
+      height: 560px;
+      img{
+        height: 45px;
+        width: 20%;
+        margin-left: 36%;
+      }
+    }
+  }
+  .column{
+    height: 582px;
+  }
+    
+}

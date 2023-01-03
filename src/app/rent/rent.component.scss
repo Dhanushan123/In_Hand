@@ -1,0 +1,90 @@
+.container{
+  margin-top: 2%; 
+ 
+}
+/* foods Brands items  */
+.rent-content{
+  margin: 5px;
+  padding: 5px;
+  background: linear-gradient(#9c9797,#020202);
+  text-align: center;
+  height: 350px;
+  /* border-radius: 10px */
+  color: #F7EFED;
+  }
+
+  .rent-content:hover{
+    background:rgb(70, 71, 77);
+  }
+
+.rent-content h4{
+padding: 2%;  
+color:#F7EFED;
+font-size: 20px;
+font-weight:400;
+
+}
+#price{
+color:#F7EFED;
+font-size: 20px;
+font-weight:400;
+
+}
+
+
+#rent-varieties{
+  background: linear-gradient(#FD9A68,#F75C60);
+  height: 40px;
+  color: #F7EFED;
+  font-size: 21px;
+  font-weight: none;
+  text-decoration: none;
+  margin: 10px auto;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  .foods-items{
+    display: block;
+    align-items: center;
+    margin: 20px auto;
+    background:linear-gradient(#FD9A68,#F75C60);
+    padding: 20px auto;
+    height: 100%;
+  }
+  .rent-content h4{
+    color:#F7EFED;
+    font-size: 20px;
+    font-weight:500;
+
+  }
+  #price{
+    color:#F7EFED;
+    font-size: 20px;
+    font-weight:500;
+
+  }
+
+  .rent-items a:hover{
+    background: #F7EFED ;
+    color:  black;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  #rent-varieties{
+    background: linear-gradient(#FD9A68,#F75C60);
+    height: 40px;
+    color: #F7EFED;
+    font-size: 21px;
+    font-weight: none;
+    text-decoration: none;
+    margin: 20px auto;
+  }
+}
+
+
+
+
+/* hower */

@@ -1,0 +1,66 @@
+
+/*home page mission*/
+.container .mission{
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+.slide{
+  margin-top: 30px;
+}
+
+.container .mission h3{
+  margin-top: 3%;
+  text-align: center;
+  font-size: 35px;
+  padding: 20px;
+  margin-bottom: 12px;
+  font-family: serif;
+  font-weight: bold;
+  color: rgb(30, 23, 113);
+}
+
+.container .mission p{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container .carousel-inner img{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 550px;
+  width: 300px;
+}
+
+.container .box{
+  width:960px;
+  height: 450px;
+  float:left;
+  margin-top:30px;
+  background-color: rgb(237, 240, 242);
+}
+
+.container .slider img{
+  height: 500px;
+  width: 100%;
+}
+
+.rent-content{
+  margin: 5px;
+  padding: 3px;
+  background: black;
+  text-align: center;
+  height: 300px;
+  border-color: black;
+  /* border-radius: 10px */
+  }
+
+
+.rent-content h4{
+  margin-top: 5%;
+padding: 2%;  
+color:white;
+font-size: 20px;
+font-weight:400;
+
+}
